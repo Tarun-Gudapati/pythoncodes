@@ -1,0 +1,92 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM1ST93kyfAl7EvPgM2ZZCm",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Tarun-Gudapati/pythoncodes/blob/main/for%20loop%20and%20list\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DWP_GP4NRGYi",
+        "outputId": "c0d307b3-487a-404d-b4ba-48134bc5c409"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n"
+          ]
+        }
+      ],
+      "source": [
+        "#for loops \n",
+        "x='1sdvv'\n",
+        "print(len(x))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=int(input())\n",
+        "lst=[]\n",
+        "bill=0\n",
+        "for i in range (0,x):\n",
+        "  a=int(input())\n",
+        "  lst.append(a)\n",
+        "  bill=bill+a\n",
+        "print(\"the overall shopping list is  \" + str(lst))\n",
+        "print(\"the overall bill is  \" + str(bill))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ULi3ACXGTz7r",
+        "outputId": "6f572a29-df7a-48b6-bee5-581cef4df249"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "4\n",
+            "1\n",
+            "2\n",
+            "3\n",
+            "5\n",
+            "the overall shopping list is  [1, 2, 3, 5]\n",
+            "the overall bill is  11\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
